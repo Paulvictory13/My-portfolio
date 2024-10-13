@@ -23,13 +23,16 @@ body {
     height: 70px;
 }
 
-.logo img {
+.logo{
     position: relative;
     width: 90px;
     cursor: default;
     opacity: 0;
     animation: slideRight 5s ease forwards;
-
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .navbar a {
