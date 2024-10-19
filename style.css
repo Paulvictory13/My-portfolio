@@ -7,7 +7,6 @@
 }     
 body {
     background-color: black;
-    width: 100% !important;
 }
 
 .header {
@@ -35,6 +34,7 @@ body {
     font-size: 60px;
     font-weight: 700;
     text-decoration: none;
+    font-family:cursive;
 }
 
 .navbar a {
@@ -67,12 +67,19 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(/photo/web\ background.png);
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     padding: 70px 10%;
+}
+.bg1{
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 49rem;
+    z-index: -100;
 }
 
 .home-content {
@@ -312,7 +319,8 @@ body {
 }
 .portfolio-content{
     display:flex;
-    grid-template-columns: repeat(auto-fit,minmax(359px,a auto));
+    grid-template-columns: repeat(auto-fit,minmax(159px,a auto));
+    width: 100%;
 }
 
 
@@ -321,13 +329,15 @@ body {
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
+    width: 100%;
 }
 
 .portfolio-content, .row, img{
     border-radius: 20px;
-    width: 100%;
+    width: 98%;
     height:20rem;
     padding-left: 10px;
+    gap: 0.9rem;
 }
 .layer{
     width: 100%;
